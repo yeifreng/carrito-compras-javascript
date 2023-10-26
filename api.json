@@ -39,12 +39,18 @@
     "precio": 400,
     "id": 7,
     "title": "Hamburguesa",
-    "thumbnailUrl": "https://picsum.photos/id/10/600"
+    "thumbnailUrl": "https://picsum.photos/id/100/600"
   },
   {
     "precio": 900,
     "id": 8,
     "title": "Gaseosa",
-    "thumbnailUrl": "https://picsum.photos/id/10/600"
+    "thumbnailUrl": "https://picsum.photos/id/80/600"
+  },
+  {
+    "precio": 1900,
+    "id": 9,
+    "title": "Gaseosa sin azucar",
+    "thumbnailUrl": "https://picsum.photos/id/40/600"
   }
 ]

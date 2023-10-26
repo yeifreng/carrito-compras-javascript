@@ -1,0 +1,14 @@
+.margin{
+    box-shadow:
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.tittle{
+    padding-top: 30px;
+    text-align: center;
+}
+
+body{
+    background-color: azure;
+}

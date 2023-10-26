@@ -43,7 +43,7 @@ function mostrarDatos(data){
 for(i in data){
 
     templateCard.querySelector('h5').textContent = data[i].title;
-    templateCard.querySelector('p').textContent = data[i].precio;
+    templateCard.querySelector('p').textContent = '$ '+data[i].precio;
     templateCard.querySelector('img').setAttribute("src", data[i].thumbnailUrl);
     templateCard.querySelector('.btn-dark').dataset.id = data[i].id;
 
@@ -165,15 +165,6 @@ function pintarFooter(){
  const nCantidad = Object.values(carrito).reduce((acc, { cantidad }) => acc + cantidad, 0)
  const nPrecio = Object.values(carrito).reduce((acc, {cantidad, precio}) => acc + cantidad * precio ,0)
 
- //const nCantidad = Object.values(carrito).reduce(ncantidad, 0);
- //function ncantidad(acc, {cantidad}){
- //    return acc + cantidad;    
- //}
-
- //const nPrecio = Object.values(carrito).reduce(nprecio,0);
- //function nprecio(acc, {cantidad, precio}){
- //    return acc + cantidad*precio;    
- //}
 
  templateFooter.querySelectorAll('td')[0].textContent = nCantidad
  templateFooter.querySelector('span').textContent = nPrecio
